@@ -150,6 +150,34 @@ p {
 }
 /* End of Hero Section */
 
+/* Artist section*/
+
+#artists .artists {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#artists .artists-top p {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    color: black;
+}
+
+.artists .artists-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
 /* Keyframes*/
 @keyframes text_reveal_box {
     50% {
