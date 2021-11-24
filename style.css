@@ -42,9 +42,9 @@ p {
     font-size: 4rem;
     font-weight: 300;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: .05rem;
     text-align: center;
 }
 
@@ -77,7 +77,8 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
-    justify-content: flex-start;
+    justify-content: center;
+    
 }
 
 #hero h1 {
@@ -333,28 +334,42 @@ p {
 
 /* Gallery Section*/
 #gallery .gallery {
-    flex-direction: column;
+    flex-direction: row;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
 }
 
+#gallery .gallery-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #gallery .gallery-header {
-    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#gallery .gallery-header p {
+    color: black;
+    text-align: center;
+    justify-content: center;
 }
 
 #gallery .gallery-cards {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #gallery .gallery-art {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     width: 80%;
     margin: 20px auto;
     overflow: hidden;
@@ -374,7 +389,7 @@ p {
 }
 
 #gallery .gallery-info h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
 }
 
