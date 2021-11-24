@@ -151,7 +151,6 @@ p {
 /* End of Hero Section */
 
 /* Artist section*/
-
 #artists .artists {
     flex-direction: column;
     text-align: center;
@@ -177,7 +176,7 @@ p {
     margin-top: 50px;
 }
 
-/* Artists cards w/ border 
+/* Artists cards w/ border */
 #artists .artists-list {
     flex-basis: 80%;
     display: flex;
@@ -229,7 +228,7 @@ p {
     overflow: hidden;
 }
 
-/* Overlay gradient 
+/* Overlay gradient */
 #artists .artists-list::after {
     content: '';
     position: absolute;
@@ -272,7 +271,127 @@ p {
     width: 40px;
     margin-bottom: 1px;
 }
-*/
+
+/* Artists names h2 tag */
+#artists .artists-list h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#artists .artists-list2 h2 {
+   font-size: 2rem;
+   color: white;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+}
+
+#artists .artists-list3 h2 {
+   font-size: 2rem;
+   color: white;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+}
+
+/* Artists info p tag */
+#artists .artists-list p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    line-height: 1.9rem;
+}
+
+#artists .artists-list2 p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    line-height: 1.9rem;
+}
+
+#artists .artists-list3 p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    line-height: 1.9rem;
+}
+
+/* Artists names span color*/
+#artists .artists-list span {
+    color: #9F9BC0;
+}
+
+#artists .artists-list2 span {
+    color: #9F9BC0;
+}
+
+#artists .artists-list3 span {
+    color: #9F9BC0;
+}
+
+/* End Artist section*/
+
+/* Gallery Section*/
+#gallery .gallery {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#gallery .gallery-header {
+    margin-bottom: 50px;
+}
+
+#gallery .gallery-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#gallery .gallery-art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#gallery .gallery-info {
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #9F9BC0;
+    color: white;
+}
+
+#gallery .gallery-info h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+#gallery .gallery-info h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#gallery .gallery-img {
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+/* End Gallery Section*/
+
 /* Keyframes*/
 @keyframes text_reveal_box {
     50% {
