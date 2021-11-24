@@ -34,7 +34,7 @@ The base page for the artists section. The goal is to showcase the 3 artists and
 ![image](https://user-images.githubusercontent.com/91730394/143316510-25e9d479-d3b9-49fe-9386-06443e7d6f56.png)
 
 The gallery section is to showcase artworks from the artists. It will be a grid/column style where you will be able to zoom 
-![image](https://user-images.githubusercontent.com/91730394/143316588-f3b722b8-74e9-4c56-89bf-cf46c5ebeafa.png)
+
 
 ![image](https://user-images.githubusercontent.com/91730394/143316687-bddbada5-973e-4e1b-b21a-b96aad4dfe6d.png)
 
