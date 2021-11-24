@@ -177,6 +177,57 @@ p {
     margin-top: 50px;
 }
 
+/* Artists cards w/ border */
+#artists .artists-list {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("./img/jack-hunter-1L4E_lsIb9Q-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 5px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+#artists .artists-list2 {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("./img/redd-c7xBEFBJhkg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#artists .artists-list3 {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("./img/niv-singer-LkD_IH8_K8k-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
 
 /* Keyframes*/
 @keyframes text_reveal_box {
