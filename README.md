@@ -20,6 +20,17 @@ The Gallery section will showcase 3 artworks from the 3 artists in a grid/column
 ![image](https://user-images.githubusercontent.com/91730394/143299447-0e98d1fa-baa9-4026-acc1-4765d35ac5b6.png)
 
 # Update 1
-I have finished the landing page and I have added an animation on first h1 tags. 
+Added texts and background images to landing page. I used 3 colors as a base. I have also a clickable place holder link that will scroll down to the gallery page. There is an animation added to the first 3 texts which reveals it when you first load the page.
+
+## Colors used
+-![#F0F5F7](https://via.placeholder.com/15/F0F5F7/000000?text=+) `#F0F5F7`
+-![#9F9BC0](https://via.placeholder.com/15/9F9BC0/000000?text=+) `#9F9BC0`
+-![#0000](https://via.placeholder.com/15/00000/000000?text=+) `#00000`
+
+
 ![image](https://user-images.githubusercontent.com/91730394/143300188-00b5e021-36f4-487b-baed-2019769c21fb.png)
+
+![image](https://user-images.githubusercontent.com/91730394/143301608-a6ea5979-c079-4892-89d2-410bb4caec69.png)
+
+
 
