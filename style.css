@@ -229,6 +229,43 @@ p {
     overflow: hidden;
 }
 
+/* Overlay gradient */
+#artists .artists-list::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #2E3253, #EFEFE9 100%);
+    opacity: .4;
+    z-index: -1;
+}
+
+#artists .artists-list2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #2E3253, #EFEFE9 100%);
+    opacity: .5;
+    z-index: -1;
+}
+
+#artists .artists-list3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #2E3253, #EFEFE9 100%);
+    opacity: .5;
+    z-index: -1;
+}
+
 /* Keyframes*/
 @keyframes text_reveal_box {
     50% {
