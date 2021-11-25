@@ -335,21 +335,13 @@ p {
 /* End Artist section*/
 
 /* Gallery Section*/
-
-#gallery .gallery {
-    flex-direction: row;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 10% 0;
-}
 /* Container around gallery */
 #gallery .gallery-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: left;
-    padding: 0 0 0 3%;
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 20px;
+
 }
 
 #gallery .gallery-header {
@@ -368,7 +360,6 @@ p {
     justify-content: center;
 }
 
-/*
 #gallery .gallery-cards {
     display: inline-block;
     align-items: center;
@@ -388,7 +379,7 @@ p {
     border-radius: 2%;
 }
 
-/* purple box above images*/
+/* purple box above images */
 #gallery .gallery-info {
     padding: 5%;
     flex-basis: 100%;
@@ -400,7 +391,7 @@ p {
     background-color: #9F9BC0;
     color: white;
 }
-/*
+
 #gallery .gallery-info h1 {
     font-size: 3rem;
     font-weight: 400;
@@ -412,7 +403,7 @@ p {
     margin-top: 10px;
 }
 
-/*
+
 #gallery .gallery-img {
     overflow: hidden;
     position: relative;
