@@ -341,11 +341,11 @@ p {
     height: 20%;
     float: left;
     margin: 20px;
-
+    display: flex;
 }
 
 #gallery .gallery-header {
-    justify-content: center;
+    justify-content:start;
 }
 
 #gallery .gallery-header p {
@@ -359,7 +359,7 @@ p {
     text-align: center;
     justify-content: center;
 }
-
+/*
 #gallery .gallery-cards {
     display: inline-block;
     align-items: center;
