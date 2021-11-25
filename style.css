@@ -21,6 +21,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
 img {
@@ -338,7 +339,7 @@ p {
     flex-direction: row;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 10% 0;
 }
 
 #gallery .gallery-container {
@@ -347,7 +348,7 @@ p {
     flex-direction: row;
     align-items: start;
     justify-content: center;
-    padding: 0 0 0 2%;
+    padding: 0 0 0 5%;
 }
 
 #gallery .gallery-header {
@@ -355,6 +356,12 @@ p {
 }
 
 #gallery .gallery-header p {
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+#gallery .gallery-header h2 {
     color: black;
     text-align: center;
     justify-content: center;
@@ -380,7 +387,7 @@ p {
 }
 
 #gallery .gallery-info {
-    padding: 3%;
+    padding: 5%;
     flex-basis: 100%;
     height: 100%;
     display: flex;
@@ -404,7 +411,7 @@ p {
 
 #gallery .gallery-img {
     flex-basis: 50%;
-    height: 300px;
+    height: 50%;
     overflow: hidden;
     position: center;
 }
