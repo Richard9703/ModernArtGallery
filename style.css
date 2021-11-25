@@ -194,7 +194,7 @@ p {
     margin: 10px 5px;
     position: relative;
     z-index: 1;
-    
+    overflow: hidden;
 }
 
 #artists .artists-list2 {
@@ -240,7 +240,7 @@ p {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #2E3253, #EFEFE9 100%);
-    opacity: .4;
+    opacity: .1;
     z-index: -1;
 }
 
@@ -268,7 +268,7 @@ p {
     z-index: -1;
 }
 
- Icon used on top of names 
+/*Icon used on top of names */
 #artists .artists-bottom .icon {
     height: 40px;
     width: 40px;
@@ -335,24 +335,25 @@ p {
 /* End Artist section*/
 
 /* Gallery Section*/
+
 #gallery .gallery {
     flex-direction: row;
-    max-width: 1200px;
+    max-width: 80%;
     margin: 0 auto;
     padding: 10% 0;
 }
-
+/* Container around gallery */
 #gallery .gallery-container {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: start;
-    justify-content: center;
-    padding: 0 0 0 5%;
+    justify-content: left;
+    padding: 0 0 0 3%;
 }
 
 #gallery .gallery-header {
-    justify-content: first baseline;
+    justify-content: center;
 }
 
 #gallery .gallery-header p {
@@ -367,7 +368,7 @@ p {
     justify-content: center;
 }
 
-
+/*
 #gallery .gallery-cards {
     display: inline-block;
     align-items: center;
@@ -375,6 +376,7 @@ p {
     flex-direction: row;
 }
 
+/* Padding around cards */
 #gallery .gallery-art {
     display: inline-block;
     align-items: center;
@@ -386,6 +388,7 @@ p {
     border-radius: 2%;
 }
 
+/* purple box above images*/
 #gallery .gallery-info {
     padding: 5%;
     flex-basis: 100%;
@@ -397,7 +400,7 @@ p {
     background-color: #9F9BC0;
     color: white;
 }
-
+/*
 #gallery .gallery-info h1 {
     font-size: 3rem;
     font-weight: 400;
@@ -409,11 +412,11 @@ p {
     margin-top: 10px;
 }
 
+/*
 #gallery .gallery-img {
-    flex-basis: 50%;
-    height: 50%;
     overflow: hidden;
-    position: center;
+    position: relative;
+    background-position: center;
 }
 /* End Gallery Section*/
 
