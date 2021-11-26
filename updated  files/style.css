@@ -453,6 +453,10 @@ footer {
     margin: 0 auto;
     padding: 0;
 }
+
+footer > p {
+    color: black;
+}
 /* End Footer */
 
 /* Keyframes*/
@@ -500,16 +504,4 @@ footer {
     }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-     .container {
-        width: 100%;
-    }
-}
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .container {
-        width: 100%;
-    }
-}
