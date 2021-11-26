@@ -421,11 +421,13 @@ p {
 }
 
 .gallery-text {
-    right: 0;
-    left: -50%;
+    right: 40%;
+    left: -15%;
     font-weight: bold;
     position: absolute;
-    margin: 9%;
+    margin: 0 10% 8% 15%;
+    border-radius: 1%;
+    background-color: #9F9BC0;
 }
 
 .carousel-img {
@@ -448,6 +450,7 @@ p {
 footer {
     text-align: center;
     margin: 0 auto;
+    padding: 0;
 }
 /* End Footer */
 
