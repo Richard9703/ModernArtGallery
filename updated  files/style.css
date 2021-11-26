@@ -27,7 +27,6 @@ a {
 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
 }
 
 p {
@@ -444,6 +443,7 @@ p {
 .carousel-buttons {
     margin-bottom: 6%;
 }
+
 /* End Carousel */
 
 /* Footer */
