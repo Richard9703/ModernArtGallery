@@ -430,9 +430,13 @@ p {
     max-height: auto;
     align-items: center;
     justify-content: center;
+    border: .8% solid black;
+    border-radius: 5%;
+    overflow: hidden;
 }
 /* End Carousel */
 
+/**/
 
 /* Keyframes*/
 @keyframes text_reveal_box {
