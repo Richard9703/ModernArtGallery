@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+p {
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+
+.section-title {
+    font-size: 4rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 0.5%;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    text-align: center;
+}
+
+.section-title span {
+    color: #9F9BC0;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url("./img/margot-noyelle-3LyJOlOkmPY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+#hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+
+#hero .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: center;
+    
+}
+
+#hero h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    font-weight: 400;
+    color: transparent;
+    animation: text_reveal 1s ease forwards;
+    animation-delay: 2s;
+}
+
+/* Animation reveal */
+#hero h1:nth-child(1){
+    animation-delay: 1s;
+}
+
+#hero h1:nth-child(2){
+    animation: text_reveal_name 1s ease forwards;
+    animation-delay: 2s;
+}
+
+#hero h1:nth-child(3){
+    
+    animation-delay: 3s;
+}
+
+
+#hero h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #6A6F7A;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 3s;
+}
+
+/* Animation reveal */
+#hero h1:nth-child(1) span {
+    animation-delay: .5s;
+}
+
+#hero h1:nth-child(2) span {
+    animation-delay: 1.5s;
+}
+
+#hero h1:nth-child(3) span {
+    animation-delay: 2.5s;
+}
+
+#hero .cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #F0F5F7;
+    background-color: transparent;
+    border: 2px solid #F0F5F7;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+
+#hero .cta:hover {
+    color: white;
+    background-color: #9F9BC0;
+}
+/* End of Hero Section */
+
+/* Artist section*/
+#artists .artists {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#artists .artists-top p {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    color: black;
+}
+
+.artists .artists-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+/* Artists cards w/ border */
+#artists .artists-list {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("./img/jack-hunter-1L4E_lsIb9Q-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#artists .artists-list2 {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("./img/redd-c7xBEFBJhkg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#artists .artists-list3 {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("./img/niv-singer-LkD_IH8_K8k-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* Overlay gradient */
+#artists .artists-list::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #2E3253, #EFEFE9 100%);
+    opacity: .1;
+    z-index: -1;
+}
+
+#artists .artists-list2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #2E3253, #EFEFE9 100%);
+    opacity: .5;
+    z-index: -1;
+}
+
+#artists .artists-list3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #2E3253, #EFEFE9 100%);
+    opacity: .5;
+    z-index: -1;
+}
+
+/*Icon used on top of names */
+#artists .artists-bottom .icon {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 1px;
+}
+
+/* Artists names h2 tag */
+#artists .artists-list h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#artists .artists-list2 h2 {
+   font-size: 2rem;
+   color: white;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+}
+
+#artists .artists-list3 h2 {
+   font-size: 2rem;
+   color: white;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+}
+
+/* Artists info p tag */
+#artists .artists-list p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    line-height: 1.9rem;
+}
+
+#artists .artists-list2 p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    line-height: 1.9rem;
+}
+
+#artists .artists-list3 p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    line-height: 1.9rem;
+}
+
+/* Artists names span color*/
+#artists .artists-list span {
+    color: #9F9BC0;
+}
+
+#artists .artists-list2 span {
+    color: #9F9BC0;
+}
+
+#artists .artists-list3 span {
+    color: #9F9BC0;
+}
+
+/* End Artist section*/
+
+/* Gallery Section*/
+/* Container around gallery 
+#gallery .gallery-container {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 20px;
+    display: flex;
+}
+/**/
+#gallery .gallery-header {
+    justify-content:start;
+    margin-bottom: 2%;
+}
+/**/
+#gallery .gallery-header p {
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+/*
+#gallery .gallery-header h2 {
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+/*
+#gallery .gallery-cards {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Padding around cards 
+#gallery .gallery-art {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 5% auto;
+    overflow: hidden;
+    border-radius: 2%;
+}
+
+/* purple box above images 
+#gallery .gallery-info {
+    padding: 5%;
+    flex-basis: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #9F9BC0;
+    color: white;
+}
+
+#gallery .gallery-info h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+#gallery .gallery-info h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/*
+#gallery .gallery-img {
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+}
+/* End Gallery Section*/
+
+/* Carousel */
+.gallery-inner {
+    margin: 0 30% 0 35%;
+    max-height: 75%;
+   
+}
+
+.gallery-text {
+    right: 0;
+    left: -70%;
+}
+
+.carousel-img {
+    max-width: 30%;
+    max-height: 30%;
+    align-items: center;
+    justify-content: center;
+    min-height: 40%;
+}
+/* End Carousel */
+
+
+/* Keyframes*/
+@keyframes text_reveal_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+@keyframes text_reveal {
+    100% {
+        color: #F0F5F7;
+    }
+}
+@keyframes text_reveal_name {
+    100% {
+        color: #9F9BC0;
+        font-weight: 700;
+    }
+}
+/* End Keyframes*/
+
+/* Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+}
+
+/* Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) {
+
+}
+*/
