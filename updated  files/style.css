@@ -423,6 +423,9 @@ p {
 .gallery-text {
     right: 0;
     left: -50%;
+    font-weight: bold;
+    position: absolute;
+    margin: 9%;
 }
 
 .carousel-img {
@@ -433,10 +436,20 @@ p {
     border: .8% solid black;
     border-radius: 5%;
     overflow: hidden;
+    margin: 0 0 5% 0;
+}
+
+.carousel-buttons {
+    margin-bottom: 6%;
 }
 /* End Carousel */
 
-/**/
+/* Footer */
+footer {
+    text-align: center;
+    margin: 0 auto;
+}
+/* End Footer */
 
 /* Keyframes*/
 @keyframes text_reveal_box {
