@@ -64,7 +64,7 @@ p {
 
 .nav a {
    margin: 0;
-   padding: 0; 
+   padding: 1em; 
    list-style-type: none;
    color: #F0F5F7;
    font-size: 1rem;
@@ -75,7 +75,7 @@ p {
 
 .nav-item {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 0.8em;
     text-align: center;
 }
 
@@ -96,10 +96,10 @@ a:hover {
 }
 
 .bar {
-    width: 1.3rem;
-    height: 3px;
+    width: 1.5rem;
+    height: 0.2rem;
     background-color: #F0F5F7;
-    margin: 4px auto;
+    margin: 0.3rem auto;
 }
 
 /* Hero Section */
@@ -495,7 +495,7 @@ a:hover {
 /* Carousel */
 .gallery-inner {
     margin: 0 0 0 25%;
-    max-height: 70%;
+    max-height: 100%;
    
 }
 
@@ -504,10 +504,10 @@ a:hover {
     left: -15%;
     font-weight: bold;
     position: absolute;
-    margin: 0 10% 3% 15%;
-    border-radius: 0.5em;
+    margin: 0 10% 5% 15%;
+    border-radius: 0.1em;
     background-color: #9F9BC0;
-    bottom: 2.2em;
+    bottom: 2em;
 
 }
 
@@ -515,8 +515,8 @@ a:hover {
     height: 50em;
     align-items: center;
     justify-content: center;
-    border: .8em solid black;
-    border-radius: 1em;
+    border: 0.5px solid black;
+    border-radius: 1%;
     overflow: hidden;
     margin: 0 0 5% 0;
     object-fit: cover;
@@ -527,8 +527,8 @@ a:hover {
     height: 50em;
     align-items: center;
     justify-content: center;
-    border: .8em solid black;
-    border-radius: 5%;
+    border: 0.5px solid black;
+    border-radius: 1%;
     overflow: hidden;
     margin: 0 0 5% 0;
     object-fit: cover;
@@ -540,8 +540,8 @@ a:hover {
     height: 50em;
     align-items: center;
     justify-content: center;
-    border: .8em solid black;
-    border-radius: 5%;
+    border: 0.5px solid black;
+    border-radius: 1%;
     overflow: hidden;
     margin: 0 0 5% 0;
     object-fit: cover;
@@ -550,7 +550,7 @@ a:hover {
 }
 
 .carousel-buttons {
-    margin-bottom: 4%;
+    margin-bottom: 6.5%;
 }
 
 .icon-color {
