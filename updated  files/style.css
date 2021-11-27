@@ -594,7 +594,32 @@ a:hover {
     text-align: center;
     font-size: 1em;
 }
+/**/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 1em;
+    background-color: #9F9BC0;
+    border-radius: .3em;
+    margin: .4em;
+    
+}
 
+.column h2 {
+    color: #2E3253;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.column p {
+    color: #2E3253;
+    font-size: 1em;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* Footer */
 footer {
     text-align: center;
