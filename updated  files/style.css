@@ -582,6 +582,19 @@ a:hover {
     overflow: hidden;
     
 }
+
+#about .about-text h1 {
+    color: #2E3253;
+    font-size: 2em;
+    text-align: center;
+}
+
+#about .about-text p {
+    color: #2E3253;
+    text-align: center;
+    font-size: 1em;
+}
+
 /* Footer */
 footer {
     text-align: center;
