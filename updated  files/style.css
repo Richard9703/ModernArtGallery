@@ -25,8 +25,8 @@ a {
 }
 
 img {
-    height: 100%;
-    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 p {
@@ -41,7 +41,7 @@ p {
 .section-title {
     font-size: 3rem;
     font-weight: 400;
-    color: black;
+    color: #2E3253;
     margin-bottom: 0.5%;
     text-transform: uppercase;
     letter-spacing: .05rem;
@@ -68,12 +68,15 @@ p {
    list-style-type: none;
    color: #F0F5F7;
    font-size: 1rem;
+   text-align:center;
+   position: relative;
+   display: inline-block;
 }
 
 .nav-item {
     display: inline-block;
     margin-left: 10px;
-    
+    text-align: center;
 }
 
 a {
@@ -93,7 +96,7 @@ a:hover {
 }
 
 .bar {
-    width: 20px;
+    width: 1.3rem;
     height: 3px;
     background-color: #F0F5F7;
     margin: 4px auto;
@@ -131,7 +134,7 @@ a:hover {
 #hero h1 {
     display: block;
     width: fit-content;
-    font-size: 3rem;
+    font-size: 2rem;
     position: relative;
     font-weight: 400;
     color: transparent;
@@ -183,13 +186,15 @@ a:hover {
 
 #hero .cta {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 2%;
     color: #F0F5F7;
     background-color: transparent;
-    border: 2px solid #F0F5F7;
+    border: 0.3rem solid #F0F5F7;
+    border-radius: 2rem;
+    text-align: center;
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 1rem;
+    letter-spacing: .2rem;
     text-decoration: none;
     margin-top: 30px;
     transition: .3s ease;
@@ -208,14 +213,14 @@ a:hover {
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 5em 0;
 }
 
 #artists .artists-top p {
-    font-size: 1.4rem;
+    font-size: 1em;
     margin-top: 5px;
-    line-height: 2.5rem;
-    font-weight: bold;
+    line-height: 2rem;
+    font-weight: 400;
     letter-spacing: .05rem;
     color: black;
 }
@@ -326,21 +331,22 @@ a:hover {
 
 /* Artists names h2 tag */
 #artists .artists-list h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 #artists .artists-list2 h2 {
-   font-size: 2rem;
+   font-size: 1.5rem;
    color: white;
    margin-bottom: 10px;
+   text-align: left;
    text-transform: uppercase;
 }
 
 #artists .artists-list3 h2 {
-   font-size: 2rem;
+   font-size: 1.5rem;
    color: white;
    margin-bottom: 10px;
    text-transform: uppercase;
@@ -348,26 +354,26 @@ a:hover {
 
 /* Artists info p tag */
 #artists .artists-list p {
-    font-size: 1.4rem;
+    font-size: 1em;
     color: white;
     text-align: left;
-    line-height: 1.9rem;
+    line-height: 1.5rem;
     
 }
 
 #artists .artists-list2 p {
-    font-size: 1.4rem;
+    font-size: 1em;
     color: white;
     text-align: left;
-    line-height: 1.9rem;
+    line-height: 1.5rem;
     
 }
 
 #artists .artists-list3 p {
-    font-size: 1.4rem;
+    font-size: 1em;
     color: white;
     text-align: left;
-    line-height: 1.9rem;
+    line-height: 1.5rem;
 
 }
 
@@ -408,19 +414,25 @@ a:hover {
     display: flex;
 }
 */
-
 /**/
+#gallery .container {
+    min-height: 25vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #gallery .gallery-header {
-    justify-content:start;
-    align-content: center;
-    margin-bottom: 2%;
+    margin: 0 auto;
+    padding: 2rem 0 0;
 }
 /**/
 #gallery .gallery-header p {
-    color: black;
+    color: #2E3253;
     text-align: center;
     justify-content: center;
-    font-weight: bold;
+    font-weight: 400;
+    font-size: 1em;
 }
 /*
 #gallery .gallery-header h2 {
@@ -492,14 +504,26 @@ a:hover {
     left: -15%;
     font-weight: bold;
     position: absolute;
-    margin: 0 10% 8% 15%;
-    border-radius: 1%;
+    margin: 0 10% 4% 15%;
+    border-radius: .95em;
     background-color: #9F9BC0;
+    bottom: 1.2rem
 }
 
 .carousel-img {
-    max-width: 100%;
-    max-height: auto;
+    height: 50em;
+    align-items: center;
+    justify-content: center;
+    border: .8% solid black;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 0 0 5% 0;
+    object-fit: cover;
+    object-position: top;
+}
+
+.carousel-img1 {
+    height: 50em;
     align-items: center;
     justify-content: center;
     border: .8% solid black;
@@ -507,6 +531,22 @@ a:hover {
     overflow: hidden;
     margin: 0 0 5% 0;
     object-fit: cover;
+    object-position: center;
+
+}
+
+/* adjusts items in gallery container*/
+.carousel-img3 {
+    height: 50em;
+    align-items: center;
+    justify-content: center;
+    border: .8% solid black;
+    border-radius: 5%;
+    overflow: hidden;
+    margin: 0 0 5% 0;
+    object-fit: cover;
+    object-position: top;
+
 }
 
 .carousel-buttons {
@@ -519,20 +559,28 @@ a:hover {
 /* End Carousel */
 
 /* About */
-
+#about .container {
+    min-height: 25vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 #about p {
     color: #2E3253;
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
+    font-size: 1em;
 }
 
 .about-img {
+    width: 100%;
+    height: 20em;
     background-image: url("./img/annie-spratt-_9LPbygnDJM-unsplash.jpg");
     background-size: cover;
     background-position: bottom;
     border: 1px solid;
     overflow: hidden;
-    width: 100%;
+    
 }
 /* Footer */
 footer {
@@ -542,7 +590,7 @@ footer {
 }
 
 footer > p {
-    color: black;
+    color: #2E3253;
 }
 /* End Footer */
 
@@ -571,7 +619,7 @@ footer > p {
 /* End Keyframes*/
 
 /* Extra small devices (portrait phones, less than 768px)*/
-@media (max-width: 600px) { 
+@media (max-width: 768px) { 
     .container {
          width: 100%;
     }
@@ -593,14 +641,14 @@ footer > p {
         display: block;
         width: 100%;
         padding: 5px 0;
-        text-align: end;
+        text-align: center;
     }
 
     .menu-icon {
         display: block;
         position: absolute;
-        top: 20px;
-        right: 5%;
+        top: 25%;
+        right: 20%;
     }
 
     .menu-icon:hover .bar {
