@@ -495,7 +495,7 @@ a:hover {
 /* Carousel */
 .gallery-inner {
     margin: 0 0 0 25%;
-    max-height: auto;
+    max-height: 70%;
    
 }
 
@@ -504,17 +504,18 @@ a:hover {
     left: -15%;
     font-weight: bold;
     position: absolute;
-    margin: 0 10% 4% 15%;
-    border-radius: .95em;
+    margin: 0 10% 3% 15%;
+    border-radius: 0.5em;
     background-color: #9F9BC0;
-    bottom: 1.2rem
+    bottom: 2.2em;
+
 }
 
 .carousel-img {
     height: 50em;
     align-items: center;
     justify-content: center;
-    border: .8% solid black;
+    border: .8em solid black;
     border-radius: 1em;
     overflow: hidden;
     margin: 0 0 5% 0;
@@ -526,13 +527,12 @@ a:hover {
     height: 50em;
     align-items: center;
     justify-content: center;
-    border: .8% solid black;
+    border: .8em solid black;
     border-radius: 5%;
     overflow: hidden;
     margin: 0 0 5% 0;
     object-fit: cover;
     object-position: center;
-
 }
 
 /* adjusts items in gallery container*/
@@ -540,7 +540,7 @@ a:hover {
     height: 50em;
     align-items: center;
     justify-content: center;
-    border: .8% solid black;
+    border: .8em solid black;
     border-radius: 5%;
     overflow: hidden;
     margin: 0 0 5% 0;
@@ -550,7 +550,7 @@ a:hover {
 }
 
 .carousel-buttons {
-    margin-bottom: 6%;
+    margin-bottom: 4%;
 }
 
 .icon-color {
@@ -602,7 +602,7 @@ a:hover {
     background-color: #9F9BC0;
     border-radius: .3em;
     margin: .4em;
-    
+    flex-direction: row;
 }
 
 .column h2 {
