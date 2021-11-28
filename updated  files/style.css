@@ -187,9 +187,7 @@ p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-decoration: none;
-    margin-top: 30
-px
-;
+    margin-top: 30px;
     transition: .3s ease;
     transition-property: background-color, color;
 }
