@@ -265,21 +265,27 @@
     <br>
     <!-- Contact -->
     <section id="contact">
-        <div>
+        <div class="contact-header container">
             <h2 class="section-title"><span>C</span>ontact Us</h2>
         </div>
         <div class="contact-form container">
-            <form action="">
-                <label for ="fname">First Name:</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your first name">
-
-                <label for ="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name">
-
-                <label for ="subject">Subject</label>
-                <textarea name="subject" id="subject" placeholder="Help us improve" style="height:200px"></textarea>
-
-                <input type="submit" value="submit">
+            <form action="/">
+                <div class="contact-info">
+                    <input class="fname" type="text" name="name" placeholder="Full name">
+                    <input class="email" type="text" name="name" placeholder="Email">
+                    <input class="fname" type="text" name="name" placeholder="Phone number">
+                    <input class="fname" type="text" name="name" placeholder="Subject">
+                </div>
+                <p>Message</p>
+                <div class="contact-info">
+                    <textarea rows="4"></textarea>
+                </div>
+                <button type="submit" href="/">Submit</button>
+                <div class="smedia-icons">
+                    <i class="fa fa-facebook-official" style="font-size:36px; color: white;"></i>
+                    <i class="fa fa-github" style="font-size:36px; color: white;"></i>
+                    <i class="fa fa-google" style="font-size:36px; color: white;"></i>
+                </div>
             </form>
         </div>
         <!--

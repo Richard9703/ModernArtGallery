@@ -629,10 +629,18 @@ p {
 
 .about-us-div {
     display: flex;
+    justify-content: center;
 }
 /* End About Page */
 
 /* Contact page*/
+#contact .container {
+    min-height: 30vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #contact h1{
     text-align: center;
     display: block;
@@ -640,30 +648,63 @@ p {
     margin-top: 50%;
 }
 /* Form */
-input [type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #9F9BC0;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+p {
+    margin: 0 0 px;
 }
 
-input[type=submit] {
-    background-color: #6A6F7A;
-    color: #F0F5F7;
-    padding: 12px 20px;
-    border: 1px solid #9F9BC0;
-    border-radius: 4px;
-    cursor: pointer;
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #9F9BC0;
 }
 
-input [type=submit] {
-    background-color: #2E3253;
+form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #2E3253;
+    border-radius: 5px;
+    background: #2E3253;
 }
+
+.contact-info {
+    text-align: center;
+}
+
+input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #9F9BC0;
+    border-radius: 5px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #6A6F7A;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background: #9F9BC0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #EFEFE9;
+}
+
+button:hover {
+    background: #6A6F7A;
+}
+
 /* End Form */
+
+/* Social media icons*/
+
+/* End social media icons */
 /*
 .FindMe h2 {
     text-align: center;
@@ -727,6 +768,7 @@ footer > p {
     .about-us-div {
         width: 50%;
         align-items: center;
+
     }
     .sticky {
         width: 83%;
@@ -737,6 +779,9 @@ footer > p {
     .nav a {
 
         width:83%;
+    }
+    .contact-form {
+        flex-direction: row;
     }
 }
 
