@@ -553,6 +553,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: none;
 }
 #about p {
     color: #2E3253;
@@ -639,6 +640,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 5px;
 }
 
 #contact h1{
@@ -703,7 +705,13 @@ button:hover {
 /* End Form */
 
 /* Social media icons*/
-
+#contact-icon {
+    font-size: 5em;
+    color: white;
+    justify-content: center;
+    float: left;
+    margin: 5%;
+}
 /* End social media icons */
 /*
 .FindMe h2 {
