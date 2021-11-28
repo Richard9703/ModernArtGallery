@@ -178,14 +178,17 @@ p {
     padding: 2%;
     color: #F0F5F7;
     background-color: transparent;
-    border: 0.3rem solid #F0F5F7;
-    border-radius: .5em;
+    border: 1px;
+    font-weight: 400;
+    border-radius: 0.5rem;
     text-align: center;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 30
+px
+;
     transition: .3s ease;
     transition-property: background-color, color;
 }
@@ -636,11 +639,12 @@ p {
 
 /* Contact page*/
 #contact .container {
-    min-height: 30vh;
+    min-height: 25vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #contact h1{
@@ -667,7 +671,8 @@ form {
     padding: 25px;
     margin: 25px;
     box-shadow: 0 2px 5px #2E3253;
-    border-radius: 5px;
+    border: 1px solid #2E3253;
+    border-radius: 10px;
     background: #2E3253;
 }
 
@@ -691,56 +696,42 @@ input::placeholder {
 button {
     width: 20%;
     padding: 10px;
-    border: none;
-    background: #9F9BC0;
+    margin: 1%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #2E3253;
     font-size: 16px;
     font-weight: 500;
-    color: #EFEFE9;
+    color: #F0F5F7;
 }
 
 button:hover {
-    background: #6A6F7A;
+    background: #9F9BC0;
 }
 
 /* End Form */
 
 /* Social media icons*/
 #contact-icon {
-    font-size: 5em;
-    color: white;
+    font-size: 5rem;
+    color: #EFEFE9;
     justify-content: center;
     float: left;
     margin: 5%;
 }
-/* End social media icons */
-/*
-.FindMe h2 {
-    text-align: center;
-}
-.FindMe{
-    background-color: white;
-    border-radius: 15px;
-}
-.FindMe > div.SMIcons > div.container > div.row ul{
-    margin: 0 auto;
-}
-#contact > div > div > div > div > div.ContactMeForm.col-8 > form > div.showcase.sweet > button{
-    width: 100%;
-}
-*/
-/* End Contact page*/
-
-
 
 /* Footer */
-footer {
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
+footer .container {
+    background: #2E3253;
+    min-height: 20vh;
+    border: 1px solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 footer > p {
     color: #2E3253;
+    text-align: center;
 }
 /* End Footer */
 
