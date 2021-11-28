@@ -670,6 +670,31 @@ a:hover {
 .about-us-div {
     display: flex;
 }
+/* End About Page */
+
+/* Contact page*/
+#contact h1{
+    text-align: center;
+    display: block;
+    height: 50%;
+    margin-top: 50%;
+}
+.FindMe h2 {
+    text-align: center;
+}
+.FindMe{
+    background-color: white;
+    border-radius: 15px;
+}
+.FindMe > div.SMIcons > div.container > div.row ul{
+    margin: 0 auto;
+}
+#contact > div > div > div > div > div.ContactMeForm.col-8 > form > div.showcase.sweet > button{
+    width: 100%;
+}
+/* End Contact page*/
+
+
 
 /* Footer */
 footer {
