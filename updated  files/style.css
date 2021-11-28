@@ -53,6 +53,45 @@ p {
 }
 
 /* Navbar */
+.nav {
+    overflow: hidden;
+    background-color: #9F9BC0;
+    z-index: 10;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #F0F5F7;
+    text-align: center;
+    padding: 1em;
+    margin: auto;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav a:hover {
+    background-color: #2E3253;
+    color: #F0F5F7;
+}
+
+.nav a.active {
+    background-color: #6A6F7A;
+    color: #EFEFE9;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    justify-content: center;
+}
+
+.sticky + .container {
+    padding-top: 60px;
+}
+/*
 .navbar {
     position: sticky;
     position: -webkit-sticky;
@@ -90,17 +129,7 @@ a {
 a:hover {
     color: #2E3253;
 }
-
-.menu-icon {
-    display: none;
-}
-
-.bar {
-    width: 1.5rem;
-    height: 0.2rem;
-    background-color: #F0F5F7;
-    margin: 0.3rem auto;
-}
+*/
 
 /* Hero Section */
 #hero {
@@ -560,7 +589,7 @@ a:hover {
 
 /* About */
 #about .container {
-    min-height: 25vh;
+    min-height: 30vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -591,35 +620,57 @@ a:hover {
 
 #about .about-text p {
     color: #2E3253;
+    font-size: 1em;
     text-align: center;
-    font-size: 1em;
 }
-/**/
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 1em;
+/* About columns */
+#about-icons .container {
+    min-height: 40vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-3 {
     background-color: #9F9BC0;
-    border-radius: .3em;
-    margin: .4em;
-    flex-direction: row;
+    display: grid;
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid #9F9BC0;
+    border-radius: 1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
 }
 
-.column h2 {
-    color: #2E3253;
-    font-size: 2em;
-    font-weight: bold;
+.col-3 h2 {    
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-.column p {
-    color: #2E3253;
-    font-size: 1em;
+.col-3 p {
+    font: 1rem;
+    text-align: center;
 }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+.about-icon {
+    font-size: 10px;
 }
+
+
+.row {
+    flex-wrap: wrap;
+    display: contents;
+    width: 40%;
+    height: auto;
+}
+
+.about-us-div {
+    display: flex;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -656,51 +707,34 @@ footer > p {
 }
 /* End Keyframes*/
 
-/* Extra small devices (portrait phones, less than 768px)*/
-@media (max-width: 768px) { 
+/* Extra small devices (portrait phones, less than 600px)*/
+@media screen and (max-width: 599px) { 
     .container {
          width: 100%;
     }
-
-    .navbar {
-        flex-direction: column;
+    .about-us-div {
+        width: 50%;
+        align-items: center;
     }
-
-    .nav {
-        display: none;
+    .sticky {
         width: 100%;
-    }
-
-    .active {
-        display: block;
-    }
-
-    .nav-item {
-        display: block;
-        width: 100%;
-        padding: 5px 0;
+        justify-content: center;
         text-align: center;
+        align-items: center;
     }
-
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 25%;
-        right: 20%;
-    }
-
-    .menu-icon:hover .bar {
-        background-color: #2E3253;
-    }
-
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 601px and up) */
 @media (min-width: 601px) and (max-width: 767.98px) { 
     .container {
         width: 100%;
     } 
-    
+    .nav{
+        width:80%;
+    }
+    .sticky {
+        width: 80%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -708,6 +742,39 @@ footer > p {
     .container {
         width: 100%;
     }
+    .nav{
+        width:80%;
+    }
+    .sticky {
+        width: 80%;
+    }
 
 }
 
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+    .nav{
+        width:80%;
+    }
+    .sticky {
+        width: 100%;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .container {
+        width: 100%;
+        text-align: center;
+    }
+    .nav{
+        width: 80%;
+    }
+    .sticky {
+        width: 100%;
+        justify-content: center;
+    }
+}

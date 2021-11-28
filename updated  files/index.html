@@ -14,32 +14,12 @@
 
 <body>
     <!-- Navbar -->
-    <div class="navbar" id="myNavbar">
-        <!--<a href="#" class="logo">MAG</a>-->
-        <ul id="nav-list" class="nav">
-            <li class="nav-item">
-                <a href="#hero">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#artists">Artists</a>
-            </li>
-            <li class="nav-item">
-                <a href="#gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-        <nav id="nav-toggle" class="navbar">
-            <div class="menu-icon">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-        </nav>
+    <div class="nav" id="navbar">
+        <a href="#hero">Home</a>
+        <a href="#artists">Artists</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
     </div>
 
     <!-- End Navbar -->
@@ -69,8 +49,10 @@
                     </div>
                     <h2><span>M</span>ichaelangelo</h2>
                     <p>Michelangelo di Lodovico Buonarroti Simoni, known simply as Michelangelo, was an Italian
-                        sculptor, painter, architect and poet of the High Renaissance born in the Republic of Florence,
-                        whose work had a major influence on the development of Western art, particularly in relation to
+                        sculptor, painter, architect and poet of the High Renaissance born in the Republic of
+                        Florence,
+                        whose work had a major influence on the development of Western art, particularly in relation
+                        to
                         the Renaissance notions of humanism and naturalism.<a
                             href="https://en.wikipedia.org/wiki/Michelangelo" class="artist-link">Read more.</a></p>
                 </div>
@@ -80,10 +62,14 @@
                             alt="Artist icon">
                     </div>
                     <h2><span>V</span>incent van Gogh</h2>
-                    <p>Vincent Willem van Gogh was a Dutch Post-Impressionist painter who posthumously became one of the
-                        most famous and influential figures in Western art history. In a decade, he created about 2,100
-                        artworks, including around 860 oil paintings, most of which date from the last two years of his
-                        life.<a href="https://en.wikipedia.org/wiki/Vincent_van_Gogh" class="artist-link">Read more.</a>
+                    <p>Vincent Willem van Gogh was a Dutch Post-Impressionist painter who posthumously became one of
+                        the
+                        most famous and influential figures in Western art history. In a decade, he created about
+                        2,100
+                        artworks, including around 860 oil paintings, most of which date from the last two years of
+                        his
+                        life.<a href="https://en.wikipedia.org/wiki/Vincent_van_Gogh" class="artist-link">Read
+                            more.</a>
                     </p>
                 </div>
                 <div class="artists-list3">
@@ -92,7 +78,8 @@
                             alt="Artist icon">
                     </div>
                     <h2><span>B</span>anksy</h2>
-                    <p>Banksy is a pseudonymous England-based street artist, political activist and film director whose
+                    <p>Banksy is a pseudonymous England-based street artist, political activist and film director
+                        whose
                         real name and identity remain unconfirmed and the subject of speculation. Active since the
                         1990s, his satirical street art and subversive epigrams combine dark humour with graffiti
                         executed in a distinctive stenciling technique.<a href="https://en.wikipedia.org/wiki/Banksy"
@@ -225,25 +212,49 @@
     <section id="about">
         <div class="about-header container">
             <h2 class="section-title"><span>A</span>bout Us</h2>
-            <p>Modern Art Gallery is an online gallery dedicated to showcasing a variety of artists monthly. I created
+            <p>Modern Art Gallery is an online gallery dedicated to showcasing a variety of artists monthly. I
+                created
                 the website to make it easier to learn about artists throughout history, past and present. </p>
         </div>
     </section>
+    <br>
     <section class="about-img">. . .</section>
+    <br>
     <section id="about-icons">
         <div class="container">
-            <div class="row">
-                <div class="column">
-                    <h2>Column1</h2>
-                    <p>description</p>
+            <div class="row about-us-div">
+                <div class="col-3">
+                    <img class="about-icon" src="https://img.icons8.com/dotty/100/000000/meeting.png" alt="Goal icon" />
+                    <h2>Goal</h2>
+                    <div style="max-width: 100%; text-align: center;">
+                        <p>Modern Art Gallery aims to foster a conversation between the traditional and the
+                            experimental, the past and the present, in a space that is attentive to modern and
+                            contemporary art issues and accessible to a wide variety of audiences, from academics to
+                            young children.</p>
+                    </div>
+
                 </div>
-                <div class="column">
-                    <h2>Column1</h2>
-                    <p>description</p>
+                <div class="col-3">
+                    <img class="about-icon"
+                        src="https://img.icons8.com/external-justicon-lineal-justicon/64/000000/external-brain-human-organs-justicon-lineal-justicon.png"
+                        alt="Values icon" />
+                    <h2>Values</h2>
+                    <div style="max-width: 100%; text-align: center;">
+                        <p>Here at Modern Art Gallery we are passionate about our work and projects. We never settle
+                            for
+                            good enough and to keep on improving the way we develope projects.</p>
+                    </div>
                 </div>
-                <div class="column">
-                    <h2>Column1</h2>
-                    <p>description</p>
+                <div class="col-3">
+                    <img class="about-icon"
+                        src="https://img.icons8.com/external-outline-geotatah/60/000000/external-community-socio-technical-system-outline-geotatah.png"
+                        alt="Community icon" />
+                    <h2>Community</h2>
+                    <div style="max-width: 100%; text-align: center;">
+                        <p>We are accessible from all over the globe. Our community has their own hub via discord.
+                            Which you
+                            can join and socialise and interact with other people!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -268,14 +279,29 @@
         crossorigin="anonymous"></script>
     <!-- End Bootstrap script -->
 
-    <!-- Script -->
+    <script>
+        window.onscroll = function () { stickyNav() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function stickyNav() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    
+    <!-- Script
     <script>
         var tglbtn = document.getElementById("nav-toggle");
         var navlst = document.getElementById("nav-list");
 
         tglbtn.addEventListener('click', () => { navlst.classList.toggle("active"); });
     </script>
-    <!-- End Script -->
+    End Script -->
 
     <!-- Footer -->
     <div>
