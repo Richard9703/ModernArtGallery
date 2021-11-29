@@ -48,8 +48,14 @@ The final product for the gallery page was a carousel with buttons that show whi
 The about page was simple to make. The idea was to have a an img resized to look like a banner. I used the exisiting container to adjust the "About us" header. I then addded a <section> tag for the image to separate them and make it easier to style in css. Underneath I used 3 columns in a row. Each of them has an icon related to the values of the gallery. 
 ![image](https://user-images.githubusercontent.com/91730394/143792779-c1b3a121-15eb-4777-85c2-495a66b9d47b.png)
   
- Each column has a border radius around it to round off the edges too keep the recurring theme throughout the website.
+Each column has a border radius around it to round off the edges too keep the recurring theme throughout the website. 
 ![image](https://user-images.githubusercontent.com/91730394/143793995-a954e9fd-a6ed-4f13-b66f-2d8119198f98.png)
+ 
+The Contact us page is a simple form. It's adjusted to the size of the container and will resize at other screen sizes like the rest of the items on the page. It is also connected to the footer along with the social media links and the copyright trademark at the very bottom. 
+  
+If you click the links they will take you the website domains. The form is not online but you are able to type and press the button freely. 
+![image](https://user-images.githubusercontent.com/91730394/143794089-0b0ec951-288b-41b8-a6db-659dbf8e47fa.png)
+
 
 
 
