@@ -131,6 +131,12 @@ The website was deployed in Github
 
 Live link: https://richard9703.github.io/ModernArtGallery/
 
+## HTML
+Validated in [HTML Validation Service](https://validator.w3.org/nu/)
+
+## CSS 
+Validated in [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
 # Credits
 ## Content 
 1. Wikipedia for the texts in the artist's cards.
