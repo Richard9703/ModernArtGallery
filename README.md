@@ -7,7 +7,11 @@ Modern is a free online art gallery that showcases a variety of artists. It is a
 My main inpsiration for this website was due to the lack of online galleries that are online. It is difficult to appreciate certain artwork without travelling to the country it is located in and that is difficult for some. The website is made for people who would prefer to have a visual and informative experience in the comfort of their homes. 
 
 # Build 
-The main idea for the page is to be a single scroller. The top section of the page will be a nav bar on a background image It will have the web page title in the middle of the page. 
+The main idea for the page is to be a single scroller. The top section of the page will be a nav bar on a background image It will have the web page title in the middle of the page. You will be able to use the navbar to navigate the page as it will be a single scroller. It will include links to wiki pages for the artists and you can view a collection of their works in the online gallery. At the end of the page you will find the information page just talking about what the website is and why it was made. The contact form at the end is there if you would like to make suggestions or have any inquries or issues in regards to the website.
+
+The navbar I chose was a simple sticky nav bar. It is also responsive in 3 screensizes: Laptop/Computer, iPad and Smartphones. I chose this as it was a single scroller and I wanted it to be easy for users to navigate the website without ever needing to scroll up or down the website. 
+![image](https://user-images.githubusercontent.com/91730394/143792661-6d472484-1a72-45aa-9378-69fc23504cd2.png)
+
 
 ![image](https://user-images.githubusercontent.com/91730394/143299002-0d153571-e511-4f0a-865d-bc3bfc4cc4c0.png)
 
