@@ -699,6 +699,16 @@ form {
 .contact-info {
     text-align: center;
 }
+#contact-txt {
+    color: white;
+    font-size: 1rem;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+
 
 input, textarea {
     width: calc(100% - 18px);
