@@ -31,6 +31,8 @@ Added texts and background images to landing page. I used 3 colors as a base. I 
 
 The base page for the artists section. The goal is to showcase the 3 artists and provide small information on them within a container. I applied a gradient overlay and z-index as some images were too bright and too dark to use white texts.
 ![image](https://user-images.githubusercontent.com/91730394/143301608-a6ea5979-c079-4892-89d2-410bb4caec69.png)
+
+I ended up making cards for the 3 artists and added a background image behind each. I used an artist icon to fill the top area above the headers. I added an overlay and lowered it's opacity to make it lighter for the first card as it was too bright and a little bit darker for the other 2 cards. 
 ![image](https://user-images.githubusercontent.com/91730394/143316510-25e9d479-d3b9-49fe-9386-06443e7d6f56.png)
 
 The gallery section is to showcase artworks from the artists. It will be a grid/column style where you will be able to zoom // Had issues with the gallery and container as they were overlapping a lot. I fixed this by making sure i styled it's own class separate from the main .container in the css. 
