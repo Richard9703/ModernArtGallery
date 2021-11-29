@@ -129,5 +129,19 @@ The website was deployed in Github
 - Select master branch from drop down
 - A link will be shown once the website has successfully deployed. 
 
+Live link: https://richard9703.github.io/ModernArtGallery/
+
+# Credits
+## Content 
+1. Wikipedia for the texts in the artist's cards.
+2. [Youtube for showing me the animation on the texts on landing page.](https://www.youtube.com/watch?v=ZFQkb26UD1Y&t=863s)
+3. The bootstrap used in [carousel](https://getbootstrap.com/docs/4.0/components/carousel/#options)
+4. The social media fonts are from [fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
+5. The artists icons are from [icon8](https://icons8.com/icons/set/art)
+
+## Images
+1. The images used were from [unsplash](https://unsplash.com/s/photos/art)
+2. The rest of the images are sourced from [Google](https://www.google.ie/) and are linked directly from their source in the html. 
+
 
 
