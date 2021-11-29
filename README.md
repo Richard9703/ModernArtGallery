@@ -57,11 +57,12 @@ Each column has a border radius around it to round off the edges too keep the re
 ![image](https://user-images.githubusercontent.com/91730394/143793995-a954e9fd-a6ed-4f13-b66f-2d8119198f98.png)
 
 ## Contact Us
-The Contact us page is a simple form. It's adjusted to the size of the container and will resize at other screen sizes like the rest of the items on the page. It is also connected to the footer along with the social media links and the copyright trademark at the very bottom. 
+The Contact us page is a simple form. It's adjusted to the size of the container and will resize at other screen sizes like the rest of the items on the page. It is also connected to the footer but are in separate divs to style easier. 
+![image](https://user-images.githubusercontent.com/91730394/143861707-bb92ecb3-7d19-4402-b72e-2ee4d583b332.png)
 
 ## Footer
-If you click the links they will take you the website domains. The form is not online but you are able to type and press the button freely. 
-![image](https://user-images.githubusercontent.com/91730394/143794089-0b0ec951-288b-41b8-a6db-659dbf8e47fa.png)
+The form is not online but if you click the links they will take you the website domains and there will be a copyright trademark at the very bottom. 
+![image](https://user-images.githubusercontent.com/91730394/143861752-e114ee15-22f5-4cae-8cb1-635f116c42dc.png)
 
 
 
