@@ -1,5 +1,3 @@
-# RPVillanuevueva_Project1
-
 # Modern Art Gallery
 Modern Art Gallery is a free online art gallery that showcases a variety of artists. It is a website that offers information about artists and showcases all their works in hopes to inspire and educate people who aren't familiar with them and maybe re-ignite passion for some. It will be targeted to anyone who is eager to learn about art or are looking to view online galleries. this site will be useful for people love to avoid queues and crowds as everything will be virtual. 
 
