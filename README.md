@@ -9,10 +9,6 @@ My main inpsiration for this website was due to the lack of online galleries tha
 # Build 
 The main idea for the page is to be a single scroller. The top section of the page will be a nav bar on a background image It will have the web page title in the middle of the page. You will be able to use the navbar to navigate the page as it will be a single scroller. It will include links to wiki pages for the artists and you can view a collection of their works in the online gallery. At the end of the page you will find the information page just talking about what the website is and why it was made. The contact form at the end is there if you would like to make suggestions or have any inquries or issues in regards to the website.
 
-The navbar I chose was a simple sticky nav bar. It is also responsive in 3 screensizes: Laptop/Computer, iPad and Smartphones. I chose this as it was a single scroller and I wanted it to be easy for users to navigate the website without ever needing to scroll up or down the website. 
-![image](https://user-images.githubusercontent.com/91730394/143792661-6d472484-1a72-45aa-9378-69fc23504cd2.png)
-
-
 ![image](https://user-images.githubusercontent.com/91730394/143299002-0d153571-e511-4f0a-865d-bc3bfc4cc4c0.png)
 
 Then the Artists section will feature the 3 artists and introduce them briefly. It's not final if it will be a round border or a rectangular
@@ -33,6 +29,9 @@ Added texts and background images to landing page. I used 3 colors as a base. I 
 
 ![image](https://user-images.githubusercontent.com/91730394/143300188-00b5e021-36f4-487b-baed-2019769c21fb.png)
 
+The navbar I chose was a simple sticky nav bar. It is also responsive in 3 screensizes: Laptop/Computer, iPad and Smartphones. I chose this as it was a single scroller and I wanted it to be easy for users to navigate the website without ever needing to scroll up or down the website. 
+![image](https://user-images.githubusercontent.com/91730394/143792661-6d472484-1a72-45aa-9378-69fc23504cd2.png)
+
 The base page for the artists section. The goal is to showcase the 3 artists and provide small information on them within a container. I applied a gradient overlay and z-index as some images were too bright and too dark to use white texts.
 ![image](https://user-images.githubusercontent.com/91730394/143301608-a6ea5979-c079-4892-89d2-410bb4caec69.png)
 
@@ -45,6 +44,14 @@ The gallery section is to showcase artworks from the artists. It will be a grid/
 ![image](https://user-images.githubusercontent.com/91730394/143316687-bddbada5-973e-4e1b-b21a-b96aad4dfe6d.png)
 The final product for the gallery page was a carousel with buttons that show which is the active page at the bottom. This was done with bootstrap and some custom classes as I had to merge it with the existing container in the page. 
 ![image](https://user-images.githubusercontent.com/91730394/143792357-3295fb80-d8ed-458a-99c2-0f700b1a4a1a.png)
+
+The about page was simple to make. The idea was to have a an img resized to look like a banner. I used the exisiting container to adjust the "About us" header. I then addded a <section> tag for the image to separate them and make it easier to style in css. Underneath I used 3 columns in a row. Each of them has an icon related to the values of the gallery. 
+![image](https://user-images.githubusercontent.com/91730394/143792779-c1b3a121-15eb-4777-85c2-495a66b9d47b.png)
+  
+ Each column has a border radius around it to round off the edges too keep the recurring theme throughout the website.
+![image](https://user-images.githubusercontent.com/91730394/143793995-a954e9fd-a6ed-4f13-b66f-2d8119198f98.png)
+
+
 
 
 
