@@ -33,10 +33,13 @@ The base page for the artists section. The goal is to showcase the 3 artists and
 ![image](https://user-images.githubusercontent.com/91730394/143301608-a6ea5979-c079-4892-89d2-410bb4caec69.png)
 ![image](https://user-images.githubusercontent.com/91730394/143316510-25e9d479-d3b9-49fe-9386-06443e7d6f56.png)
 
-The gallery section is to showcase artworks from the artists. It will be a grid/column style where you will be able to zoom // Had issues with the gallery and container 
+The gallery section is to showcase artworks from the artists. It will be a grid/column style where you will be able to zoom // Had issues with the gallery and container as they were overlapping a lot. I fixed this by making sure i styled it's own class separate from the main .container in the css. 
 
 
 ![image](https://user-images.githubusercontent.com/91730394/143316687-bddbada5-973e-4e1b-b21a-b96aad4dfe6d.png)
+The final product for the gallery page was a carousel with buttons that show which is the active page at the bottom. This was done with bootstrap and some custom classes as I had to merge it with the existing container in the page. 
+![image](https://user-images.githubusercontent.com/91730394/143792357-3295fb80-d8ed-458a-99c2-0f700b1a4a1a.png)
+
 
 
 
